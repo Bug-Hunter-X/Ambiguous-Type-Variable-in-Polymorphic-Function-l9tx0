@@ -1,0 +1,2 @@
+# Ambiguous Type Variable in Haskell
+This repository demonstrates a common Haskell error: an ambiguous type variable in a polymorphic function. The `mysteryFunction` in `bug.hs` has an overly general type signature, leading to a compilation failure. The solution in `bugSolution.hs` shows how to constrain the type signature to resolve the ambiguity.
